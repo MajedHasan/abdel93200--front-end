@@ -41,7 +41,7 @@ const Header = () => {
         <span>Favorite</span>
       </Link>
       <Link
-        href={"/dashboard/message"}
+        href={"/dashboard/messages"}
         className="py-1 px-3 hover:bg-slate-300 text-sm transition-all flex items-center gap-2"
       >
         <MessageSquareText className="w-4" />
@@ -73,7 +73,7 @@ const Header = () => {
   );
 
   return (
-    <header className="py-2 px-2 md:px-0">
+    <header className="py-2 px-2 md:px-0 border-b-2">
       <div className="container mx-auto flex items-center justify-between gap-6">
         <div>
           <Link href={"/"}>
