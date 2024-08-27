@@ -9,7 +9,7 @@ import React from "react";
 const SearchFilterBox = () => {
   return (
     <>
-      <Card>
+      <Card className="col-span-1">
         <CardHeader>
           <CardTitle>
             <span className="text-orange-400">Identifiez</span> votre véhicule
