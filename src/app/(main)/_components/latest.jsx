@@ -2,9 +2,11 @@ import React from "react";
 
 const Latest = () => {
   return (
-    <section>
-      <div className="container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-10">
-        Latest
+    <section className=" py-6">
+      <div className="container mx-auto ">
+        <h2 className="lg:text-xl text-lg font-semibold mb-4">
+          Latest listings
+        </h2>
       </div>
     </section>
   );
