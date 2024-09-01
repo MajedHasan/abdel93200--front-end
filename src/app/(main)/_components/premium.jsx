@@ -7,6 +7,7 @@ const Premium = () => {
         <h2 className="lg:text-xl text-lg font-semibold mb-4">
           Today's premium selection
         </h2>
+        <div className=""></div>
       </div>
     </section>
   );
