@@ -11,7 +11,12 @@ import { CameraIcon, StarIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-const ProductCard = ({ product, classes, hideMeta = false }) => {
+const ProductCard = ({
+  product,
+  classes,
+  imageHeight = "100%",
+  hideMeta = false,
+}) => {
   return (
     <Card className={`group/card ${classes}`}>
       <CardHeader className="relative rounded overflow-hidden p-3">
@@ -19,7 +24,8 @@ const ProductCard = ({ product, classes, hideMeta = false }) => {
           <img
             src={product.images[0]}
             alt="Product Image"
-            className="rounded-lg w-full"
+            className={`rounded-lg object-cover w-full`}
+            style={{ height: imageHeight }}
           />
 
           <div className="absolute top-0 left-0 w-full h-fit py-5 px-7 hidden group-hover/card:flex transition-all">
@@ -30,7 +36,7 @@ const ProductCard = ({ product, classes, hideMeta = false }) => {
               <StarIcon className="text-white group-hover/button:text-black" />
             </Button>
           </div>
-          <div className="absolute bottom-0 left-0 w-full h-fit py-6 px-8 flex items-end justify-between gap-6">
+          <div className="absolute bottom-0 left-0 w-full h-fit py-6 px-8 flex items-end justify-between gap-6 bg-black/20">
             <div>
               {product?.isPremium && (
                 <Badge className="bg-yellow-500 rounded text-black hover:text-white">
