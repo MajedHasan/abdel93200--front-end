@@ -5,35 +5,35 @@ const Categories = () => {
   const categories = [
     {
       name: "For sale",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/1.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/1.png",
     },
     {
       name: "Vehicles",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/2.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/2.png",
     },
     {
       name: "Classes",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/3.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/3.png",
     },
     {
       name: "Real estate",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/4.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/4.png",
     },
     {
       name: "Services",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/5.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/5.png",
     },
     {
       name: "Community",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/6.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/6.png",
     },
     {
       name: "Personals",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/7.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/7.png",
     },
     {
       name: "Jobs",
-      icon: "https://easycasse.fr/oc-content/themes/epsilon/images/small_cat/8.png",
+      icon: "https://epsilon.mb-themes.com/oc-content/themes/epsilon/images/small_cat/sample/8.png",
     },
   ];
 

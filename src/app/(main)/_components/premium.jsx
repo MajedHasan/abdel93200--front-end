@@ -9,7 +9,9 @@ const Premium = () => {
       price: 75.0,
       startDate: "1 month ago",
       views: 91,
-      images: ["https://easycasse.fr/oc-content/uploads/0/40_thumbnail.webp"],
+      images: [
+        "https://epsilon.mb-themes.com/oc-content/uploads/0/304_thumbnail.jpg",
+      ],
       isPremium: true,
       categories: ["new", "car parts"],
       tags: [""],
@@ -20,7 +22,9 @@ const Premium = () => {
       price: 50.0,
       startDate: "3 week ago",
       views: 109,
-      images: ["https://easycasse.fr/oc-content/uploads/0/46_thumbnail.webp"],
+      images: [
+        "https://epsilon.mb-themes.com/oc-content/uploads/0/244_thumbnail.jpg",
+      ],
       isPremium: true,
       categories: ["new", "car parts"],
       tags: [""],
