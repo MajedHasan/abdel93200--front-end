@@ -20,7 +20,7 @@ const ProductCard = ({
   return (
     <Card className={`group/card ${classes}`}>
       <CardHeader className="relative rounded overflow-hidden p-3">
-        <Link href={`/product/${product?.id}`} className="w-full block">
+        <Link href={`/product/detail/${product?.id}`} className="w-full block">
           <img
             src={product.images[0]}
             alt="Product Image"

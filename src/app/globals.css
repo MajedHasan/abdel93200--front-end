@@ -69,3 +69,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* ====================================== Product Detail Page ====================================== */
+#product-detail-page
+  .image-gallery-thumbnails
+  .image-gallery-thumbnails-container {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#product-detail-page .image-gallery-slide .image-gallery-image {
+  border-radius: 12px;
+}
+#product-detail-page .image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus,
+#product-detail-page .image-gallery-thumbnail:hover {
+  border: 2px solid blue;
+  padding: 2px;
+  border-radius: 7px;
+}
+#product-detail-page .image-gallery-thumbnail .image-gallery-thumbnail-image {
+  border-radius: 7px;
+}
+/* ================================xxx=== Product Detail Page ===xxx================================ */
